@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { AlertCircle, BookOpen, LogIn, MessageSquare, Pencil, Plus, Trash2, X } from 'lucide-react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
+const API_URL = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'}/api`;
 const emptyEntry = { category: 'Support', question: '', answer: '', tags: [] };
 
 export default function AdminPage() {
