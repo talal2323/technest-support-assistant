@@ -47,7 +47,7 @@ export default function Home() {
     <section className="mx-auto flex min-h-screen max-w-[1500px] flex-col px-5 py-5 sm:px-8 lg:px-12 lg:py-8">
       <nav className="flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 font-[family-name:var(--font-space)] text-lg font-bold tracking-[-.04em]"><span className="grid h-9 w-9 place-items-center rounded-xl bg-[#10232b] text-[#b9e8d3]"><Sparkles size={18} /></span>TechNest</a>
-        <div className="flex items-center gap-3 text-sm font-medium text-[#4c6268]"><a href="/admin" className="hidden transition-colors hover:text-[#10232b] sm:block">Team console</a><span className="h-1 w-1 rounded-full bg-[#ff6b4a]" /><span>Support, made clear</span></div>
+        <div className="flex items-center gap-2 text-sm font-medium text-[#4c6268]"><a href="/admin" className="whitespace-nowrap rounded-full border border-[#c6d9d0] px-3 py-1.5 text-xs font-semibold transition-colors hover:border-[#ff6b4a] hover:text-[#10232b] sm:text-sm">Team console</a><span className="hidden h-1 w-1 rounded-full bg-[#ff6b4a] sm:block" /><span className="hidden sm:inline">Support, made clear</span></div>
       </nav>
 
       <div className="grid flex-1 items-center gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_minmax(420px,540px)] lg:gap-16 lg:py-16">
