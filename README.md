@@ -1,6 +1,6 @@
 # TechNest Support Assistant
 
-A portfolio-ready full-stack customer support assistant for an electronics retailer. It demonstrates a deliberately simple retrieval-augmented generation flow: the API ranks matching MongoDB knowledge entries, passes the top five into a constrained system prompt via Groq's API, and stores every exchange for admin review.
+A full-stack customer support assistant for an electronics retailer. It demonstrates a deliberately simple retrieval-augmented generation flow: the API ranks matching MongoDB knowledge entries, passes the top five into a constrained system prompt via Groq's API, and stores every exchange for admin review.
 
 ## Project layout
 
