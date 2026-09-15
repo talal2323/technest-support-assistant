@@ -6,7 +6,10 @@ const dm = DM_Sans({ subsets: ['latin'], variable: '--font-dm' });
 
 export const metadata = {
   title: 'TechNest Support | A little more human',
-  description: 'Fast, grounded support for your TechNest setup.'
+  description: 'Fast, grounded support for your TechNest setup.',
+  icons: {
+    icon: '/technest-logo.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
