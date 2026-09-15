@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowUp, ChevronDown, Headphones, LifeBuoy, Menu, PackageSearch, ShieldCheck, Sparkles, X } from 'lucide-react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
+const API_URL = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'}/api`;
 const suggestions = ['Track my order', 'Return policy', 'PulseBuds battery', 'Talk to a human'];
 const openingMessage = { role: 'assistant', content: "Hey, I'm Nest. Ask me anything about your TechNest order, products, or policies and I'll find the clearest answer I can." };
 
